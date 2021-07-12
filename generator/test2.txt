@@ -1,0 +1,6 @@
+variable = plus(1,2)
+if(plus(2, 5) > 8) {
+    return x
+} else {
+    show("Cos zjebales")
+}

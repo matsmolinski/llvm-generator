@@ -1,0 +1,36 @@
+global g = 3.15
+
+function real change(real a, int diff) {
+    x = a - diff
+    g = g + 1
+    return x + g
+}
+
+function int check(int a) {
+    if(a >= 15) {
+        show("A za duze")
+        return 0
+    }
+    return a
+}
+
+function void loop(int iterations) {
+    x = 0
+    while(x < iterations) {
+        show(x)
+        x = x + 1
+    } 
+}
+
+decision = read()
+if(decision < 2) {
+    show(change(15.0, 5))
+} else {
+    if(decision == 2) {
+        show(check(10))
+    } else {
+        loop(10)
+    }
+}
+
+show(g)

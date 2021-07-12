@@ -1,0 +1,16 @@
+show("wtf")
+
+a = "Hello world"
+wut = 137
+show(a)
+show(wut)
+wut = 147
+a = "dlrow olleH"
+show(a)
+show(wut)
+
+db = 21.37
+show(db)
+
+b = read()
+show(b)

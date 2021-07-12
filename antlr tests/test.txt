@@ -1,0 +1,14 @@
+function fun(x) {
+    show(x + 1)
+}
+
+x = 5
+if(x > 3) {
+    i = 10
+    while(i > 0) {
+        fun(x)
+        i = i - 1
+    }
+} else {
+    show("Niezbyt jestes madry")
+}
